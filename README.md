@@ -23,4 +23,3 @@ yarn dev
 
 # Caso use o npm
 npm run dev
-```
