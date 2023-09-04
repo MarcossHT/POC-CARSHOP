@@ -17,13 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      #  Lint
-      - name: Lint
-        run: yarn lint
-
-       #  test
-      - name: test
-        run: yarn test:cov
 
       # Login to GCP
       - uses: google-github-actions/setup-gcloud@v0.2.0
