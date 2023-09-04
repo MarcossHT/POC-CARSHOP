@@ -11,7 +11,7 @@ jobs:
     environment: production
     env:
       IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/site:latest
-      MONGO_URL: ${{variables.MONGO_URL}}
+      MONGO_URL: ${{secrets.MONGO_URL}}
     steps:
       # Git checkout
       - name: Checkout
